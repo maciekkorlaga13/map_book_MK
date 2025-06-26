@@ -136,7 +136,7 @@ ramka_szczegoly_obiektow.grid(row=1, column=0,columnspan=2)
 ramka_mapa.grid(row=2, column=0, columnspan=2)
 
 
-# ramka_lista_obiektow
+
 label_lista_obiektow=Label(ramka_lista_obiektow, text="Lista użytkowników")
 label_lista_obiektow.grid(row=0, column=0,columnspan=3)
 listbox_lista_obiketow=Listbox(ramka_lista_obiektow, width=50, height=10)
@@ -148,7 +148,7 @@ button_usun_obiekt.grid(row=2, column=1)
 button_edytuj_obiekt=Button(ramka_lista_obiektow, text='Edytuj obiekt', command=edit_user)
 button_edytuj_obiekt.grid(row=2, column=2)
 
-# ramka_formularz
+
 label_formularz=Label(ramka_formularz, text="Formularz")
 label_formularz.grid(row=0, column=0, columnspan=2)
 label_name=Label(ramka_formularz, text="Imię:")
@@ -172,7 +172,7 @@ entry_posts.grid(row=4, column=1)
 button_dodaj_obiekt=Button(ramka_formularz, text='Dodaj obiekt', command=add_user)
 button_dodaj_obiekt.grid(row=5, column=0, columnspan=2)
 
-# ramka_szczegoly_obiektow
+
 label_szczegoly_obiektow=Label(ramka_szczegoly_obiektow, text="Szczegoly obiektu:")
 label_szczegoly_obiektow.grid(row=0, column=0)
 label_szczegoly_name=Label(ramka_szczegoly_obiektow, text="Imię:")
@@ -192,7 +192,7 @@ label_szczegoly_posts.grid(row=1, column=6)
 label_szczegoly_posts_wartosc=Label(ramka_szczegoly_obiektow, text="....")
 label_szczegoly_posts_wartosc.grid(row=1, column=7)
 
-# ramka_mapa
+
 map_widget = tkintermapview.TkinterMapView(ramka_mapa, width=1200, height=500, corner_radius=5)
 map_widget.grid(row=0, column=0, columnspan=2)
 map_widget.set_position(52.23,21.0)
