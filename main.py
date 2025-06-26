@@ -135,6 +135,7 @@ ramka_formularz.grid(row=0, column=1)
 ramka_szczegoly_obiektow.grid(row=1, column=0,columnspan=2)
 ramka_mapa.grid(row=2, column=0, columnspan=2)
 
+
 # ramka_lista_obiektow
 label_lista_obiektow=Label(ramka_lista_obiektow, text="Lista użytkowników")
 label_lista_obiektow.grid(row=0, column=0,columnspan=3)
